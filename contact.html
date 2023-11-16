@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>About</title>
+        <style>
+              form {
+                background-color: white ;
+                text-align:center;
+                width: 38.5%;
+                height: 43%;
+                margin-left:auto;
+                margin-right:auto;
+                border: 1px solid #ccc;
+                margin-bottom: 13%;
+              }
+            .header {
+                text-align: center;
+                font-size: 22px;
+                background-color: navy;
+                height: 60px;  
+                padding-top: 20px;          
+            }
+            .menu-links {
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+          .input-label {
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around; 
+             width: 100%;              
+            }
+            .input-item {
+                text-align: left;
+                   font-size: 15px;
+                   padding-bottom: 12px;
+                   margin-top: 30px;
+                   margin-bottom: 20px;
+                   margin-left: 18px;
+                   margin-right: 18px;
+                   border-top: 0;
+                   border-left: 0;
+                   border-right: 0;
+                   border-bottom: 1px solid #ccc;
+            }
+            .submit-button {
+                background-color: #0056ff;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 18px;
+                padding-right: 18px;
+                margin-top: 35px;
+                margin-bottom: 15px;
+                font-size: 12px;
+                color: white;
+                border: none;            
+            }
+            .footer {
+                text-align: center;
+                font-size: 22px;
+                background-color: black;
+                height: 80px;  
+                padding-top: 30px; 
+            }
+            .footer-links {
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body style="background-color: whitesmoke;">
+        <header class="header">
+            <nav>
+                <span class="menu-links"><a href="index.html">Trip</a></span>
+                <span class="menu-links"><a href="about.html">About</a></span>
+                <span class="menu-links"><a href="contact.html">Contact</a></span>
+            </nav>
+        </header>
+    <h1 style="text-align: center;">Wanna come to my next trip? Contact Me.</h1>
+    <form method="get">
+        <div class="input-label">
+            <input class="input-item" type="text" name="Full Name" placeholder="Full Name" required autofocus>   
+            <input class="input-item" type="email" name="Email" placeholder="Email" required>
+            <input class="input-item" type="number" name="Contact Number" placeholder="Contact Number" required maxlength="10">
+        </div>
+        <input class="submit-button" type="submit" name="Submit" required>
+    </form>
+    <footer class="footer">
+        <nav>
+            <span class="footer-links"><a href="/Final project Greshom.html">Trip</a></span>
+            <span class="footer-links"><a href="/About.html" >About</a></span>
+            <span class="footer-links"><a href="/Contact.html" >Contact</a></span>
+        </nav>
+    </footer>
+    </body>
+</html>
